@@ -1,0 +1,26 @@
+
+.heading{
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+    padding: 20px;
+    margin-bottom: 35vh;
+}
+
+.cardsBody {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Set width for each card to create a three-column layout */
+.cardsBody > * {
+    flex: 0 0 calc(33.333% - 2px); /* 20px is the space between cards */
+    margin-bottom: 500px; /* Adjust margin as needed */
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+    .cardsBody > * {
+        flex: 0 0 calc(50% - 20px);
+    }
+}

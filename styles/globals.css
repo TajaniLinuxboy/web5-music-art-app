@@ -9,6 +9,9 @@
 }
 
 body {
-  height: 100vh;
-  overflow-x: hidden;
+  width: 100%;
+  overflow-x:hidden;
+  background: rgb(5, 4, 5);
+  background: radial-gradient(circle, rgba(11, 8, 10, 0.926) 0%, rgba(0, 0, 0, 0.551) 100%);
+
 }
