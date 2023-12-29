@@ -1,26 +1,49 @@
-
-.heading{
-    color: white;
-    font-weight: 700;
-    font-size: 24px;
-    padding: 20px;
-    margin-bottom: 35vh;
+.heading {
+  color: white;
+  font-weight: 700;
+  font-size: 24px;
+  padding: 20px;
+}
+.cardsBody {
+  position: relative; /* Ensure relative positioning for pseudo-element */
+  background: rgb(249, 96, 160);
+  background: radial-gradient(
+    circle,
+    rgb(241, 107, 163) 0%,
+    rgba(252, 125, 70, 1) 100%
+  );
+  background-position: center;
 }
 
-.cardsBody {
-    display: flex;
-    flex-wrap: wrap;
+.cardsBody::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(
+    0,
+    0,
+    0,
+    0.892
+  ); /* Adjust the alpha (last value) for darkness */
+  z-index: -1; /* Ensure the overlay is behind the content */
+}
+.swiper {
+  height: 630px;
+  width: 100%;
 }
 
 /* Set width for each card to create a three-column layout */
 .cardsBody > * {
-    flex: 0 0 calc(33.333% - 2px); /* 20px is the space between cards */
-    margin-bottom: 500px; /* Adjust margin as needed */
+  flex: 0 0 calc(33.333% - 2px); /* 20px is the space between cards */
+  margin-bottom: 500px; /* Adjust margin as needed */
 }
 
 /* Responsive styling for smaller screens */
 @media (max-width: 768px) {
-    .cardsBody > * {
-        flex: 0 0 calc(50% - 20px);
-    }
+  .cardsBody > * {
+    flex: 0 0 calc(50% - 20px);
+  }
 }

@@ -4,7 +4,7 @@ import { IoArrowBackCircle, IoArrowForwardCircle } from "react-icons/io5";
 
 const items = [
   {
-    imageUrl: "https://www.pisarto.com/cdn/shop/products/DSC_2116_800x.jpg?v=1660818835",
+    imageUrl: "https://images.unsplash.com/photo-1574169208507-84376144848b?q=80&w=1779&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     title: "Lossless Youths",
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.",
@@ -16,26 +16,25 @@ const items = [
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.",
   },
   {
-    imageUrl: "https://wharferj.files.wordpress.com/2015/11/bio_north.jpg",
+    imageUrl: "https://images.unsplash.com/photo-1613487957484-32c977a8bd62?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     title: "The Gate Keeper",
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.",
   },
   {
-    imageUrl: "https://images7.alphacoders.com/878/878663.jpg",
+    imageUrl: "https://images.unsplash.com/photo-1498036882173-b41c28a8ba34?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     title: "Last Trace Of Us",
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.",
   },
   {
-    imageUrl:
-      "https://theawesomer.com/photos/2017/07/simon_stalenhag_the_electric_state_6.jpg",
-    title: "Urban Decay",
+    imageUrl: "https://images.unsplash.com/photo-1528360983277-13d401cdc186?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    title: "Last Trace Of Us",
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.",
   },
   {
-    imageUrl: "https://da.se/app/uploads/2015/09/simon-december1994.jpg",
+    imageUrl: "https://images.unsplash.com/photo-1627672360124-4ed09583e14c?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     title: "The Migration",
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.",
