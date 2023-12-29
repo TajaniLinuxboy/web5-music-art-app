@@ -92,14 +92,39 @@
 .creatorName{
     color: rgb(243, 229, 229);
 }
-.buyButton{
-    color: white;
-    padding: 10px;
-    border-radius: 10px;
-    background-color: rgba(255, 0, 0, 0.787);
+.buyButton {
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgba(255, 0, 0, 0.787);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
 }
-.buyButton::after{
-    scale: 90%;
+
+.buyButton:hover {
+  background-color: rgba(255, 0, 0, 1);
+  transform: scale(1.1);
+}
+
+.buyButton::after {
+  content: '';
+  display: block;
+}
+
+@keyframes pulse {
+  0% {
+      transform: scale(1);
+  }
+  50% {
+      transform: scale(0.95);
+  }
+  100% {
+      transform: scale(1);
+  }
+}
+
+.buyButton:hover::after {
+  animation: pulse 0.5s infinite;
 }
 
 .nft::before {

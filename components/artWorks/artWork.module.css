@@ -6,12 +6,7 @@
 }
 .cardsBody {
   position: relative; /* Ensure relative positioning for pseudo-element */
-  background: rgb(249, 96, 160);
-  background: radial-gradient(
-    circle,
-    rgb(241, 107, 163) 0%,
-    rgba(252, 125, 70, 1) 100%
-  );
+  background: linear-gradient(93.51deg, #9c4ee5c8 2.84%, #3081ed 99.18%);
   background-position: center;
 }
 
@@ -29,6 +24,7 @@
     0.892
   ); /* Adjust the alpha (last value) for darkness */
   z-index: -1; /* Ensure the overlay is behind the content */
+  filter: blur(120px);
 }
 .swiper {
   height: 630px;
