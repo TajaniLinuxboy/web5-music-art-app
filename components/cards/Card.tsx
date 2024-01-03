@@ -1,6 +1,13 @@
-import React from "react";
+import { useRouter } from "next/router";
+
 import Styles from "./cards.module.css";
 const Card = () => {
+  const router = useRouter();
+
+  const handleBuyNowClick = () => {
+    // Navigate to the "/cart" page
+    router.push("/cart");
+  };
   return (
     <div className={`${Styles.cardBody}`}>
       <div className={`${Styles.nft}`}>
@@ -27,14 +34,15 @@ const Card = () => {
 
           <div className={`${Styles.creator}`}>
             <div className={`${Styles.wrapper}`}>
-              <img className={`${Styles.creatorImg}`}
+              <img
+                className={`${Styles.creatorImg}`}
                 src="https://images.unsplash.com/photo-1620121692029-d088224ddc74?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80"
                 alt="Creator"
               />
             </div>
             <span className={`${Styles.creatorName}`}> Creation of Sahil</span>
-            <button className={`${Styles.buyButton}`}>
-                Buy Now
+            <button className={Styles.buyButton} onClick={handleBuyNowClick}>
+              Buy Now
             </button>
           </div>
         </div>
